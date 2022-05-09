@@ -15,16 +15,16 @@ Task Management App that allows to **visualize** tasks on the backend, and to **
 ## Gifs and Screenshots
 
 ### Dashboard
-![Dashboard](https://i.ibb.co/Y2TRC3D/dashboard.png)
+![Dashboard](https://github.com/VeraVeraniego/task-management-app/blob/main/src/images/dashboard.png?raw=true)
 
 ### Modal
-![Modal](https://i.ibb.co/xGhPhRt/modal.png)
+![Modal](https://github.com/VeraVeraniego/task-management-app/blob/main/src/images/modal.png?raw=true)
 
 ### Form Validation
-![Form Validation](https://i.ibb.co/Th9S196/form-validation.png)
+![Form Validation](https://github.com/VeraVeraniego/task-management-app/blob/main/src/images/form-validation.png?raw=true)
 
 ### Task Creation
-![Task Creation](https://i.ibb.co/F3p3ZC9/create-task.gif)
+![Task Creation](https://github.com/VeraVeraniego/task-management-app/blob/main/src/images/create-task.gif?raw=true)
 
 ## Project Technologies
 - HTML
