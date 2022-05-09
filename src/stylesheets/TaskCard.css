@@ -1,0 +1,117 @@
+*{
+
+    --yellow:#E5B454;
+    --yellow-background:#E5B4541A;
+    --neutral2-background: #94979A1A;
+
+    --tag1:#4D9DE0;
+    --tag1-background:#4D9DE01A;
+    --tag2:#E15554;
+    --tag2-background:#E155541A;
+    --tag3:#E1BC29;
+    --tag3-background:#E1BC291A;
+    --tag4:#3BB273;
+    --tag4-background:#3BB2731A;
+    --tag5:#7768AE;
+    --tag5-background:#7768AE1A;
+}
+
+.taskCard{
+    
+    background-color: var(--neutral4);
+    border-radius: 8px;
+    color: var(--neutral1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.taskCard__line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* line 1 */
+.line1>h4{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+}
+.line1>.options{
+    font-size: 18px;
+    cursor: pointer;
+}
+/* line 2 */
+.line2{
+    flex-wrap: wrap;
+    align-items: center;
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.onTime{
+    background-color: var(--neutral2-background);
+}
+.nearTime{
+    background-color: var(--yellow-background);
+    color: var(--yellow);
+}
+.delayed{
+    background-color: var(--red-background);
+    color: var(--red);
+}
+.clockIcon{
+    min-width: 20px;
+    min-height: 20px;
+}
+/* line 3 */
+.line3{
+    justify-content: flex-start;
+    gap:8px;
+    flex-wrap: wrap;
+}
+.android{
+    background-color: var(--tag4-background);
+    color: var(--tag4);
+}
+.ios{
+    background-color: var(--tag3-background);
+    color: var(--tag3);
+}
+.node_js{
+    background-color: var(--tag5-background);
+    color: var(--tag5);
+}
+.rails{
+    background-color: var(--tag2-background);
+    color: var(--tag2);
+}
+.react{
+    background-color: var(--tag1-background);
+    color: var(--tag1);
+}
+/* line 4 */
+.line4{
+    justify-content: flex-end;
+    gap:18px;
+    align-items: flex-end;
+}
+.line4>.profilePic{
+    margin-right: auto;
+    max-width: 32px;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.highlighted{
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 4px 16px;
+    user-select: none;
+}
+

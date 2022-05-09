@@ -1,0 +1,101 @@
+* {
+	--neutral3: #393D41
+}
+
+.modal {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgba(0, 0, 0, 0.75);
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.modal.is-open {
+	display: flex;
+}
+
+.modal-container {
+	padding: 1rem;
+	position: relative;
+	min-width: 500px;
+	max-width: 750px;
+	min-height: 184px;
+	max-height: 300px;
+	background-color: var(--neutral3);
+	border-radius: 8px;
+}
+
+.buttons-container {
+	display: flex;
+	justify-content: flex-end;
+	gap: 1rem;
+}
+
+.button {
+	width: 62px;
+	height: 40px;
+	color: var(--neutral1);
+	border: none;
+	border-radius: 8px;
+}
+
+.modal-cancel {
+	background-color: inherit;
+}
+
+.modal-cancel:hover {
+	background-color: var(--neutral5);
+}
+
+.modal-submit {
+	background-color: var(--red-light);
+}
+
+.modal-submit:hover {
+	background-color: var(--red);
+}
+
+/* Form */
+.taskTitle {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 32px;
+	letter-spacing: 0.75px;
+	text-align: left;
+	color: var(--neutral2);
+	background-color: inherit;
+	border: none;
+	outline: none;
+}
+
+.selectors-container {
+	margin-top: 24px;
+	margin-bottom: 24px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+}
+
+.selector {
+	background-color: var(--neutral4);
+	border: none;
+	min-height: 2rem;
+	/* height: 100%; */
+	border-radius: 4px;
+	color: var(--neutral1);
+	padding-top: 5px;
+	
+}
+
+.checkbox-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
